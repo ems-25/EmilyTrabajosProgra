@@ -1,0 +1,154 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+/*establece el color de fondo de la pagina */
+
+body {
+    background-color: #0d2046; 
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+
+
+
+
+
+/*ESTO ES PARA LOS COLORES DE LAS LETRAS Y SUS RESPECTIVOS TIPOS*/
+
+/*establece el color de fondo de h1 */
+h1
+{
+  text-align: center;
+  background-color: #0d2046;
+  color: white;
+  
+}   
+
+/*establece el color de fondo de h2 */
+h2
+{
+  text-align: center;
+  background-color: #44516c;
+}
+
+/*establece el color de fondo del parrafo */
+p
+{
+  text-align: center;
+  background-color: #0d2046;
+  color: white;
+}
+
+/*establece el color  de th */
+th
+{
+  color: white;
+}
+
+
+/*establece el color  del td */
+td
+{
+  color: white;
+}
+
+
+/*establece el color del section */
+section
+{
+  color: white;
+}
+
+/*centra la tala y le agrega un espacio para que no quede  pegado con los textos*/
+
+table 
+{
+    margin: 30px auto; /* Espacio + centrado */
+    border-collapse: collapse;
+    width: 80%;
+}
+
+
+
+
+
+
+
+/*ESTO ES PARA LA BARRA DE NAVEGACION*/
+
+/*establece el color de la barra de navegacion */
+nav ul{
+  background-color: #44516c;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+/*centra la barra de navegacion */
+nav li
+{
+  display: inline-flex;
+}
+
+
+/*le da formato a la barra de navegacion */
+nav a 
+{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 150px;
+}
+
+/*permite que al pasar el mouse por la barra cambie de color */
+nav li :hover
+{
+  background-color: #0d2046;
+}
+
+/*le da formato a las clases .imagen */
+.imagen
+{
+  width: 170px;
+  height: 175px;
+  border-radius: 50% ;
+  margin: 50px;
+  object-fit: cover;
+  
+  
+ 
+}
+
+/*le da formato a las clases .imagen */
+.imagen2
+{
+  width: 175px;
+  height: 175px;
+  border-radius: 50% ;
+  margin: 50px;
+  object-fit: cover;
+}
+
+
+/*se centra la imagen inicial*/
+.yo
+{
+    margin: 30px auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+
+html {
+    scroll-behavior: smooth;  /* Esto hace la transición suave */
+}
+
+
+
