@@ -8,11 +8,20 @@ margin: 0;
 /*establece el color de fondo de la pagina */
 
 body {
-    background-color: #0d2046; 
+    background-color: #f0e9d5; 
     margin: 0; /* Elimina márgenes predeterminados */
 }
 
+.name{
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+  
+}
 
+.menu{
+  margin-top: 30px ;
+  margin-bottom: 30px ;
+}
 
 
 
@@ -23,48 +32,55 @@ body {
 h1
 {
   text-align: center;
-  background-color: #0d2046;
-  color: white;
+  background-color: #b0936c;
+  color: black;
   
 }   
 
 /*establece el color de fondo de h2 */
 h2
 {
+  margin-top: 20px ;
   text-align: center;
-  background-color: #44516c;
+  background-color: #b0936c;
+  color: black;
+  padding: 20px 0;
+
 }
 
 /*establece el color de fondo del parrafo */
 p
 {
   text-align: center;
-  background-color: #0d2046;
-  color: white;
+  background-color: #f0e9d5;
+  color: black;
 }
 
+
+
+
+/*TABLA*/
 /*establece el color  de th */
 th
 {
-  color: white;
+  
+  border: 2px solid #6c4a1c
 }
-
 
 /*establece el color  del td */
 td
 {
-  color: white;
+  border: 2px solid #6c4a1c;
 }
-
 
 /*establece el color del section */
 section
 {
-  color: white;
+  color: #6c4a1c;
+  
 }
 
-/*centra la tala y le agrega un espacio para que no quede  pegado con los textos*/
-
+/*centra la tabla y le agrega un espacio para que no quede  pegado con los textos*/
 table 
 {
     margin: 30px auto; /* Espacio + centrado */
@@ -82,7 +98,7 @@ table
 
 /*establece el color de la barra de navegacion */
 nav ul{
-  background-color: #44516c;
+  background-color: #b0936c;
   width: 100%;
   list-style-type: none;
   text-align: center;
@@ -100,23 +116,30 @@ nav li
 nav a 
 {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 10px;
   width: 150px;
+  
 }
 
 /*permite que al pasar el mouse por la barra cambie de color */
 nav li :hover
 {
-  background-color: #0d2046;
+  background-color: #fce1bc;
 }
 
 footer
 {
   width: 100%;
-  height: 200px;
-  background-color: #44516c;
+  height: 250px;
+  background-color: #b0936c;
+  text-align: center;
+  color: black;
+  
 }
+
+
+
 
 /*le da formato a las clases .imagen */
 .imagen
@@ -131,6 +154,7 @@ footer
  
 }
 
+
 /*le da formato a las clases .imagen */
 .imagen2
 {
@@ -140,6 +164,7 @@ footer
   margin: 50px;
   object-fit: cover;
 }
+
 
 
 /*se centra la imagen inicial*/
@@ -158,5 +183,28 @@ html
     scroll-behavior: smooth;  /* Esto hace la transición suave */
 }
 
+/*para darle formato a la parte de gustos de la pagina*/
+.galeria-imagenes 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+/*para darle formato a la parte de gustos de la pagina a la figura*/
+.galeria-imagenes figure 
+{
+  margin: 0;
+}
+
+/*para darle formato a la parte de gustos de la pagina al figcaption*/
+.galeria-imagenes figcaption {
+  color: black;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
 
 
