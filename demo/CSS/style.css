@@ -111,6 +111,13 @@ nav li :hover
   background-color: #0d2046;
 }
 
+footer
+{
+  width: 100%;
+  height: 200px;
+  background-color: #44516c;
+}
+
 /*le da formato a las clases .imagen */
 .imagen
 {
@@ -146,7 +153,8 @@ nav li :hover
 }
 
 
-html {
+html 
+{
     scroll-behavior: smooth;  /* Esto hace la transición suave */
 }
 
